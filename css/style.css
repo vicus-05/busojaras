@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffadd;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #b3840f;
+    font-size: 16pt;
+}
+
+p {
+    font-size: 11pt;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+div#main {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header img {
+    width: 100%;
+}
+
+#content img {
+    margin: 15px;
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 30%;
+}
+
+#buso {
+    float: left;
+}
+
+#jankele {
+    float: right;
+}
+
+li {
+    list-style-image: url('../pics/jel.png');
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #ffdfa3;
+    height: 80px;
+}
+
+footer p {
+    position: relative;
+    top: 30px;
+}
